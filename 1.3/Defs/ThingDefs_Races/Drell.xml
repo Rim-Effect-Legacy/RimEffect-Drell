@@ -152,9 +152,11 @@
 			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
-			<lifeExpectancy>1000</lifeExpectancy>
+			<lifeExpectancy>85</lifeExpectancy>
 			<leatherDef>Leather_Human</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
+			<fleshType>RE_Drell</fleshType>
+			<bloodDef>RE_FilthDrellBlood</bloodDef>
 			<body>Human</body>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>1</baseHealthScale>
