@@ -21,6 +21,13 @@
 			<li>RE_Implant</li>
 			<li>ImplantEmpireCommon</li>
 		</techHediffsTags>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Drell</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<initialWillRange>1~2</initialWillRange>
 		<initialResistanceRange>8~14</initialResistanceRange>
 	</PawnKindDef>

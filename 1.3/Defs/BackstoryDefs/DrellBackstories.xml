@@ -81,7 +81,7 @@
 		</skillGains>
 		<workDisables>
 			<li>Hauling</li>
-			<li>DumbLabour</li>
+			<li>ManualDumb</li>
 		</workDisables>
 	</AlienRace.BackstoryDef>
 
@@ -275,7 +275,7 @@
 				<amount>1</amount>
 			</li>
 			<li>
-				<defName>Medical</defName>
+				<defName>Medicine</defName>
 				<amount>-1</amount>
 			</li>
 			<li>
@@ -298,15 +298,11 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>-1</amount>
-			</li>
-			<li>
 				<defName>Crafting</defName>
 				<amount>-1</amount>
 			</li>
 			<li>
-				<defName>Medical</defName>
+				<defName>Medicine</defName>
 				<amount>2</amount>
 			</li>
 			<li>
@@ -344,7 +340,7 @@
 				<amount>4</amount>
 			</li>
 			<li>
-				<defName>Medical</defName>
+				<defName>Medicine</defName>
 				<amount>2</amount>
 			</li>
 			<li>
@@ -353,7 +349,7 @@
 			</li>
 		</skillGains>
 		<workDisables>
-			<li>SkilledLabour</li>
+			<li>ManualSkilled</li>
 			<li>Artistic</li>
 			<li>Intellectual</li>
 		</workDisables>
@@ -397,7 +393,7 @@
 			</li>
 		</skillGains>
 		<workDisables>
-			<li>DumbLabour</li>
+			<li>ManualDumb</li>
 		</workDisables>
 	</AlienRace.BackstoryDef>
 	
@@ -431,7 +427,7 @@
 			</li>
 		</skillGains>
 		<workDisables>
-			<li>DumbLabour</li>
+			<li>ManualDumb</li>
 		</workDisables>
 	</AlienRace.BackstoryDef>
 
