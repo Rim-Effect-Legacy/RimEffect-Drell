@@ -4,9 +4,9 @@
 	<ScenarioDef>
 		<defName>RE_LoneDrellAssassin</defName>
 		<label>Lone Drell Assassin</label>
-		<description>TODO</description>
+		<description>You are lost, on your own, in the middle of nowhere, you're very lucky you overpacked for this trip.</description>
 		<scenario>
-			<summary>One Drell assassin out to experience the universe. Very difficult.</summary>
+			<summary>One Drell assassin out to make a name for themselves. Very difficult.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>RE_DrellPlayerColony</factionDef>
@@ -60,11 +60,15 @@
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 				  <def>StartingThing_Defined</def>
-				  <thingDef>RE_Gun_AlliancePistol</thingDef>
+				  <thingDef>RE_Gun_AllianceRapidSniperRifle</thingDef>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 				  <def>StartingThing_Defined</def>
-				  <thingDef>RE_BioticAmp</thingDef>
+				  <thingDef>RE_AssassinsJacket</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+				  <def>StartingThing_Defined</def>
+				  <thingDef>RE_AssassinsHood</thingDef>
 				</li>
 
 				<!-- Scatter some things near player start -->
@@ -82,7 +86,7 @@
 				<!-- Game start dialog -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>You always wanted to explore new worlds but nobody you knew would come with you, one day you just decided to leave them behind, go out on your own and fulfil your dreams of setting foot on an unexplored planet far away from home. You only have basic supplies with you, knowing full well that it will make life very difficult.</text>
+					<text>You are lost, on your own, in the middle of nowhere, you're very lucky you overpacked for this trip.</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
 

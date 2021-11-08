@@ -3,8 +3,8 @@
 
 	<FactionDef ParentName="FactionBase">
 		<defName>RE_DrellPlayerColony</defName>
-		<label>Player Sanctuary</label>
-		<description>Your own sanctuary.</description>
+		<label>Player Hideout</label>
+		<description>Your own hideout.</description>
 		<basicMemberKind>RE_DrellColonist</basicMemberKind>
 		<pawnsPlural>colonists</pawnsPlural>
 		<isPlayer>true</isPlayer>
