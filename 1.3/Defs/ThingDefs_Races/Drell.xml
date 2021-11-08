@@ -203,6 +203,7 @@
 			<hediffGiverSets>
 				<li>OrganicStandard</li>
 				<li>Human</li>
+				<li>RE_Drell</li>
 			</hediffGiverSets>
 		</race>
 		<comps>

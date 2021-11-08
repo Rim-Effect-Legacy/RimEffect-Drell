@@ -61,6 +61,7 @@
     <Compile Include="CompProperties_Drell.cs" />
     <Compile Include="Comp_Drell.cs" />
     <Compile Include="HarmonyPatches.cs" />
+    <Compile Include="HediffGiver_KepralsSyndrome.cs" />
     <Compile Include="Patch_MemoryThoughtHandler.cs" />
     <Compile Include="Patch_Need_Mood.cs" />
     <Compile Include="Patch_SkillRecord.cs" />

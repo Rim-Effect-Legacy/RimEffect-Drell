@@ -20,5 +20,6 @@ namespace REDrell
 
         public static ThingDef RE_Drell;
         public static ThoughtDef RE_DrellLovin;
+        public static HediffDef RE_KepralsSyndrome;
     }
 }
