@@ -109,8 +109,8 @@
 		<title>Booze Bootlegger</title>
 		<titleShort>Bootlegger</titleShort>
 		<baseDescription>[PAWN_nameDef] found semi-steady employment escorting shipments of Hanar spirits aboard the rare trade-convoy headed out of their stations. [PAWN_possessive] skills helped to sort out issues, whether with the smoking end of a gun barrel or some smooth diplomacy.</baseDescription>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>Drell</li>
@@ -324,8 +324,8 @@
 		<title>Kinetic learner</title>
 		<titleShort>Commando</titleShort>
 		<baseDescription>[PAWN_nameDef] managed to convince a former Asari commando to train [PAWN_pronoun] in an unusual manner by getting beaten up and then attempting to imitate those moves. Not without payment, the Asari actually honed and improved her skills as they were reflected back by [PAWN_nameDef], who in turn learned to move [PAWN_possessive] body as fast as [PAWN_pronoun] possibly could through purely reactionary behaviour.</baseDescription>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>Drell</li>
@@ -402,8 +402,8 @@
 		<title>Gastronomist</title>
 		<titleShort>Gastronomist</titleShort>
 		<baseDescription>By combining eidetic memory and [PAWN_possessive] keen sense of taste and smell, [PAWN_nameDef] was able to find employment in many high-end restaurants. Rather uniquely, [PAWN_pronoun] experiences memory recall through different dishes and thus has sought to share [PAWN_possessive] lifestyle with customers by serving them dishes based on their own personal life story.</baseDescription>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Fat</bodyTypeMale>
+		<bodyTypeFemale>Fat</bodyTypeFemale>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>Drell</li>
@@ -428,6 +428,182 @@
 		</skillGains>
 		<workDisables>
 			<li>ManualDumb</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>RE_IndenturedServant</defName>
+		<title>Indentured servant</title>
+		<titleShort>Servant</titleShort>
+		<baseDescription>In order to be able to afford a lifestyle that prevented the development of Kepral’s Syndrome, [PAWN_defName] signed an indentured servant’s contract to work in an arid environment. The long, labour intensive hours meant that [PAWN_pronoun] spent most of [PAWN_possessive] time in out-of-body experiences so that [PAWN_pronoun] could enjoy life more outside of work hours.</baseDescription>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>-1</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>RE_WalkingDiary</defName>
+		<title>Walking diary</title>
+		<titleShort>Diary</titleShort>
+		<baseDescription>Despite the prevalence of technology, some people prefer to have alternative means to look up information. [PAWN_nameDef] managed to find such work as someone with too much money on their hands took a keen interest in [PAWN_possessive] eidetic memory as a sort of living, breathing diary who learns all of their appointments and people of interest. It was not the most meaningful of work, but [PAWN_pronoun] did manage to learn quite a few interesting things.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>-1</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>-1</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>RE_PerformanceSculptor</defName>
+		<title>Performance sculptor</title>
+		<titleShort>Sculptor</titleShort>
+		<baseDescription>Being able to remember every intricate detail has allowed [PAWN_nameDef] to make quite a name for [PAWN_possessive]self and quite a bit of money. As part of [PAWN_possessive] artistic talents, [PAWN_pronoun] has a gathering of clientele whom [PAWN_pronoun] greets briefly before blindfolding [PAWN_possessive]self, shaking someone’s hand and then carving small sculptures made with material the same shade as the client’s eye colour.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Mining</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>-1</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>-1</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>RE_EnkindledProselytizer</defName>
+		<title>Enkindled proselytizer</title>
+		<titleShort>Proselytizer</titleShort>
+		<baseDescription>[PAWN_nameDef] fully embraced the Hanar as [PAWN_possessive] saviours and decided to help spread their belief in the Enkindlers across known space. Not everyone is welcoming and light shines brightest in the darkest places, as such [PAWN_pronoun] was taught to defend [PAWN_possessive]self against those who would seek to halt [PAWN_possessive] holy mission.</baseDescription>
+		<bodyTypeMale>Fat</bodyTypeMale>
+		<bodyTypeFemale>Fat</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>-1</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>-1</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>RE_BiologicalResearcher</defName>
+		<title>Biological researcher</title>
+		<titleShort>Bioresearcher</titleShort>
+		<baseDescription>[PAWN_nameDef] spent many years working alongside the Hanar in trying to find a cure to the disease plaguing [PAWN_possessive] people. All the time [PAWN_pronoun] spent analysing Kepral’s syndrome on both living and dead Drell has taken a toll on [PAWN_possessive] soul.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>-1</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>-1</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
 		</workDisables>
 	</AlienRace.BackstoryDef>
 
