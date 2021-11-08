@@ -58,8 +58,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompProperties_Drell.cs" />
+    <Compile Include="Comp_Drell.cs" />
     <Compile Include="HarmonyPatches.cs" />
     <Compile Include="Patch_MemoryThoughtHandler.cs" />
+    <Compile Include="Patch_Need_Mood.cs" />
+    <Compile Include="Patch_SkillRecord.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="REDrellDefOf.cs" />
     <Compile Include="REDrell.cs" />

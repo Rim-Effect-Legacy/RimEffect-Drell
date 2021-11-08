@@ -205,6 +205,9 @@
 				<li>Human</li>
 			</hediffGiverSets>
 		</race>
+		<comps>
+			<li Class="REDrell.CompProperties_Drell" />
+		</comps>
 	</AlienRace.ThingDef_AlienRace>
 
 </Defs>
