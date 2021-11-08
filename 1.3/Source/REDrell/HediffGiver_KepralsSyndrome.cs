@@ -16,13 +16,10 @@ namespace REDrell
         {
             if (pawn.health.hediffSet.HasHediff(HediffDefOf.Hypothermia))
             {
-                string currentLabel = pawn.health.hediffSet.GetFirstHediffOfDef(HediffDefOf.Hypothermia).CurStage.untranslatedLabel;
-                if (currentLabel == "serious" || currentLabel == "extreme")
+                Hediff hypothermiaHediff = pawn.health.hediffSet.GetFirstHediffOfDef(HediffDefOf.Hypothermia);
+                if (Rand.Chance(hypothermiaHediff.Severity / 100))
                 {
-                    if (Rand.Chance(0.1f))
-                    {
-                        HealthUtility.AdjustSeverity(pawn, hediff, 0.008f);
-                    }
+                    HealthUtility.AdjustSeverity(pawn, hediff, 0.008f);
                 }
             }
         }
