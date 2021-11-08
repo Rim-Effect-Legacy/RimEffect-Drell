@@ -5,6 +5,7 @@
 		<defName>RE_AssassinsHood</defName>
 		<label>assassin's hood</label>
 		<description>A lightly armoured hood equipped with precisely tuned rangefinder goggles, this facemask not only provides anonymity but it also calculates environmental conditions in order to land shots even further away than their intended maximum range. Due to the design being intended for ambushes, the system is precise but rather slow, taking in as much information as possible before producing an optimal firing pattern.</description>
+		<thingClass>REDrell.Apparel_AssassinsHood</thingClass>
 		<techLevel>Ultra</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>

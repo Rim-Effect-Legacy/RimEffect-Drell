@@ -58,6 +58,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Apparel_AssassinsHood.cs" />
     <Compile Include="CompProperties_Drell.cs" />
     <Compile Include="Comp_Drell.cs" />
     <Compile Include="HarmonyPatches.cs" />
