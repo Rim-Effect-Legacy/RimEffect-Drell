@@ -41,7 +41,7 @@
 			<AccuracyShort>0.73</AccuracyShort>
 			<AccuracyMedium>0.86</AccuracyMedium>
 			<AccuracyLong>0.88</AccuracyLong>
-			<RangedWeapon_Cooldown>2.30</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>3.30</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>50</equippedAngleOffset>
 		<recipeMaker>
@@ -54,7 +54,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<costList>
-			<Plasteel>70</Plasteel>
+			<Plasteel>80</Plasteel>
 			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<weaponTags Inherit='False'>
@@ -69,7 +69,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>RE_Bullet_AllianceRapidSniperRifle</defaultProjectile>
-				<warmupTime>2.2</warmupTime>
+				<warmupTime>1.6</warmupTime>
 				<range>47.9</range>
 				<ticksBetweenBurstShots>90</ticksBetweenBurstShots>
 				<burstShotCount>3</burstShotCount>

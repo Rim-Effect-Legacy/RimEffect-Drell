@@ -4,7 +4,7 @@
 	<HediffDef ParentName="ChronicDiseaseBase">
 		<defName>RE_KepralsSyndrome</defName>
 		<label>kepral's syndrome</label>
-		<description>An incurable terminal illness unique to the Drell race. A Drell suffering this illness will eventually die as their lungs gradually fail.</description>
+		<description>An incurable terminal illness unique to the Drell race. A Drell suffering this illness will eventually die as their lungs gradually fail. It's often caused by the members of the drell race going into hypothermia.</description>
 		<initialSeverity>0.001</initialSeverity>
 		<minSeverity>0.001</minSeverity>
 		<maxSeverity>1.001</maxSeverity>
