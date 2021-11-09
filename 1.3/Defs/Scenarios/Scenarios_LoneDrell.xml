@@ -65,6 +65,7 @@
 				<li Class="ScenPart_StartingThing_Defined">
 				  <def>StartingThing_Defined</def>
 				  <thingDef>RE_AssassinsJacket</thingDef>
+				  <stuff>Leather_Plain</stuff>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 				  <def>StartingThing_Defined</def>
