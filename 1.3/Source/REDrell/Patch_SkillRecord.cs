@@ -24,7 +24,7 @@ namespace REDrell
             {
                 if ((pawn.TryGetComp<Comp_Drell>()?.SoulActive ?? false) == false)
                 {
-                    xp *= 0f;
+                    return false;
                 }
                 else if (xp < 0f)
                 {
