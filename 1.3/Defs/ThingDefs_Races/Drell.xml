@@ -6,6 +6,7 @@
 		<label>drell</label>
 		<description>An omnivorous, reptile-like race that was rescued from their dying homeworld by the hanar. Since then, the drell have remained loyal to them for their camaraderie and have fit comfortably into galactic civilization. Their culture allows Drell to separate their mind from their body, helping them through hard times and work. They are predisposed to Kepral's syndrome, a lethal condition which can develop if Drell stays in cold temperatures too long.</description>
 		<alienRace>
+			<humanRecipeImport>true</humanRecipeImport>
 			<generalSettings>
 				<alienPartGenerator>
 					<aliencrowntypes>
