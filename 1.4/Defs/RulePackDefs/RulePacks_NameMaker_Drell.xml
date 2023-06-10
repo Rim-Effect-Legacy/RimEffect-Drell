@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RulePackDef>
+		<defName>RE_NameGeneratorDrell</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[PartB][PartC][PartD][PartE] [PartB][PartF][PartG]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>PartB</keyword>
+					<path>Names/Names_DrellB</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>PartC</keyword>
+					<path>Names/Names_DrellC</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>PartD</keyword>
+					<path>Names/Names_DrellD</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>PartE</keyword>
+					<path>Names/Names_DrellE</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>PartF</keyword>
+					<path>Names/Names_DrellF</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>PartG</keyword>
+					<path>Names/Names_DrellG</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>RE_Interact_Locust</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/Locust/Locust_Interact</clipPath>
+					</li>
+				</grains>
+				<volumeRange>25~25</volumeRange>
+				<pitchRange>0.8728257~1.1</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>RE_Shot_Locust</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Things/Locust/Locust_Shot</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>45.2941~45.2941</volumeRange>
+				<pitchRange>1.091765~1</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>RE_Interact_Viper</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/Viper/Viper_Interact</clipPath>
+					</li>
+				</grains>
+				<volumeRange>25~25</volumeRange>
+				<pitchRange>0.8728257~1.1</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>RE_Shot_Viper</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Things/Viper/Viper_Shot</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>45.2941~45.2941</volumeRange>
+				<pitchRange>1.091765~1</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

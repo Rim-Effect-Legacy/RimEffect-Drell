@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>RE_KepralsSyndrome</defName>
+		<label>kepral's syndrome</label>
+		<description>An incurable terminal illness unique to the Drell race. A Drell suffering this illness will eventually die as their lungs gradually fail. It's often caused by the members of the drell race going into hypothermia.</description>
+		<initialSeverity>0.001</initialSeverity>
+		<minSeverity>0.001</minSeverity>
+		<maxSeverity>1.001</maxSeverity>
+		<lethalSeverity>1</lethalSeverity>
+		<tendable>true</tendable>
+		<cureAllAtOnceIfCuredByItem>false</cureAllAtOnceIfCuredByItem>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>0.08</severityPerDayNotImmune>
+			</li>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>72</baseTendDurationHours>
+				<tendAllAtOnce>true</tendAllAtOnce>
+				<severityPerDayTended>0.016</severityPerDayTended>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>minor</label>
+				<capMods>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.3</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.3</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.5</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.5</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>major</label>
+				<minSeverity>0.7</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.7</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>major</label>
+				<minSeverity>0.9</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.9</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

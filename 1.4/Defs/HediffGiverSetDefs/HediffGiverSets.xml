@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<HediffGiverSetDef>
+		<defName>RE_Drell</defName>
+		<hediffGivers>
+			<li Class="REDrell.HediffGiver_KepralsSyndrome">
+				<hediff>RE_KepralsSyndrome</hediff>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+
+</Defs>

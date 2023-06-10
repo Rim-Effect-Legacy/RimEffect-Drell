@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThoughtDef>
+		<defName>RE_DrellLovin</defName>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>0.25</durationDays>
+		<stackLimit>20</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>intoxicated</label>
+				<description>The mildly venomous skin of the drell I made love to makes me feel funny.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+				<baseOpinionOffset>3</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+</Defs>
