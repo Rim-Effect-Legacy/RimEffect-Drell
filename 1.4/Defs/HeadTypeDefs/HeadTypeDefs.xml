@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Male -->
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>RE_Drell_Male_AverageNormal</defName>
+    <graphicPath>Things/Pawn/Drell/Head/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>RE_Drell_Male_AveragePointy</defName>
+    <graphicPath>Things/Pawn/Drell/Head/Male_Average_Pointy</graphicPath>
+    <eyeOffsetEastWest>(0.175, 0, 0.18)</eyeOffsetEastWest>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>RE_Drell_Male_AverageWide</defName>
+    <graphicPath>Things/Pawn/Drell/Head/Male_Average_Wide</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>RE_Drell_Male_NarrowNormal</defName>
+    <graphicPath>Things/Pawn/Drell/Head/Male_Narrow_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>RE_Drell_Male_NarrowPointy</defName>
+    <graphicPath>Things/Pawn/Drell/Head/Male_Narrow_Pointy</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>RE_Drell_Male_NarrowWide</defName>
+    <graphicPath>Things/Pawn/Drell/Head/Male_Narrow_Wide</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+
+  <!-- Female -->
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>RE_Drell_Female_AverageNormal</defName>
+    <graphicPath>Things/Pawn/Drell/Head/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>RE_Drell_Female_AveragePointy</defName>
+    <graphicPath>Things/Pawn/Drell/Head/Female_Average_Pointy</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>RE_Drell_Female_AverageWide</defName>
+    <graphicPath>Things/Pawn/Drell/Head/Female_Average_Wide</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>RE_Drell_Female_NarrowNormal</defName>
+    <graphicPath>Things/Pawn/Drell/Head/Female_Narrow_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>RE_Drell_Female_NarrowPointy</defName>
+    <graphicPath>Things/Pawn/Drell/Head/Female_Narrow_Pointy</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>RE_Drell_Female_NarrowWide</defName>
+    <graphicPath>Things/Pawn/Drell/Head/Female_Narrow_Wide</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+</Defs>
