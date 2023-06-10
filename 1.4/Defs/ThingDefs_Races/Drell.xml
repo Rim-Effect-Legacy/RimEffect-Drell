@@ -9,21 +9,21 @@
 			<generalSettings>
 				<humanRecipeImport>true</humanRecipeImport>
 				<alienPartGenerator>
-					<aliencrowntypes>
+					<headTypes>
 						<li>Average_Normal</li>
 						<li>Average_Pointy</li>
 						<li>Average_Wide</li>
 						<li>Narrow_Normal</li>
 						<li>Narrow_Pointy</li>
 						<li>Narrow_Wide</li>
-					</aliencrowntypes>
-					<alienbodytypes>
+					</headTypes>
+					<bodyTypes>
 						<li>Male</li>
 						<li>Female</li>
 						<li>Hulk</li>
 						<li>Thin</li>
 						<li>Female</li>
-					</alienbodytypes>
+					</bodyTypes>
 					<colorChannels>
 						<li>
 							<name>skin</name>
@@ -81,11 +81,31 @@
 				</li>
 			</styleSettings>
 			<graphicPaths>
-				<li>
-					<head>Things/Pawn/Drell/Head/</head>
-					<body>Things/Pawn/Drell/Body/</body>
-				</li>
+          <head>
+		    <path>Things/Pawn/Asari/Drell/Head/</path>
+		  </head>
+          <body>
+		    <path>Things/Pawn/Drell/Body/</path>
+		  </body>
 			</graphicPaths>
+      <raceRestriction>
+        <whiteXenotypeList>
+            <li>Baseliner</li>
+        </whiteXenotypeList>
+        <onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
+        <blackGeneTags>
+			<li>HairStyle</li>
+			<li>BeardStyle</li>
+			<li>SkinColorOverride</li>
+			<li>EyeColor</li>
+			<li>Tail</li>
+        </blackGeneTags>
+        <blackEndoCategories>
+            <li>HairColor</li>
+            <li>Melanin</li>
+            <li>Voice</li>
+        </blackEndoCategories>
+      </raceRestriction>
 		</alienRace>
 		<statBases>
 			<MarketValue>2000</MarketValue>
