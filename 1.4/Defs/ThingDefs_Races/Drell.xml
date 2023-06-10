@@ -10,19 +10,24 @@
 				<humanRecipeImport>true</humanRecipeImport>
 				<alienPartGenerator>
 					<headTypes>
-						<li>Average_Normal</li>
-						<li>Average_Pointy</li>
-						<li>Average_Wide</li>
-						<li>Narrow_Normal</li>
-						<li>Narrow_Pointy</li>
-						<li>Narrow_Wide</li>
+						<li>RE_Drell_Male_AverageNormal</li>
+						<li>RE_Drell_Male_AveragePointy</li>
+						<li>RE_Drell_Male_AverageWide</li>
+						<li>RE_Drell_Male_NarrowNormal</li>
+						<li>RE_Drell_Male_NarrowPointy</li>
+						<li>RE_Drell_Male_NarrowWide</li>
+						<li>RE_Drell_Female_AverageNormal</li>
+						<li>RE_Drell_Female_AveragePointy</li>
+						<li>RE_Drell_Female_AverageWide</li>
+						<li>RE_Drell_Female_NarrowNormal</li>
+						<li>RE_Drell_Female_NarrowPointy</li>
+						<li>RE_Drell_Female_NarrowWide</li>
 					</headTypes>
 					<bodyTypes>
 						<li>Male</li>
 						<li>Female</li>
 						<li>Hulk</li>
 						<li>Thin</li>
-						<li>Female</li>
 					</bodyTypes>
 					<colorChannels>
 						<li>
@@ -81,7 +86,7 @@
 			</styleSettings>
 			<graphicPaths>
           <head>
-		    <path>Things/Pawn/Asari/Drell/Head/</path>
+		    <path>Things/Pawn/Drell/Head/</path>
 		  </head>
           <body>
 		    <path>Things/Pawn/Drell/Body/</path>
