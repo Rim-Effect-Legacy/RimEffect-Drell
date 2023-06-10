@@ -25,8 +25,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Things/Locust/Locust_Shot</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/Locust/Locust_Shot</clipPath>
 					</li>
 				</grains>
 				<volumeRange>45.2941~45.2941</volumeRange>
@@ -60,8 +60,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Things/Viper/Viper_Shot</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/Viper/Viper_Shot</clipPath>
 					</li>
 				</grains>
 				<volumeRange>45.2941~45.2941</volumeRange>
