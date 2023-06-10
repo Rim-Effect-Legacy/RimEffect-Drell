@@ -57,7 +57,6 @@
 							</first>
 						</li>
 					</colorChannels>
-					<useGenderedHeads>true</useGenderedHeads>
 				</alienPartGenerator>
 			</generalSettings>
 			<styleSettings>
