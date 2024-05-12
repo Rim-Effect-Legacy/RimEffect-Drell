@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>RE_AssassinsHood</defName>
+		<label>assassin's hood</label>
+		<description>A lightly armoured hood equipped with precisely tuned rangefinder goggles, this facemask not only provides anonymity but it also calculates environmental conditions in order to land shots even further away than their intended maximum range. Due to the design being intended for ambushes, the system is precise but rather slow, taking in as much information as possible before producing an optimal firing pattern.</description>
+		<thingClass>REDrell.Apparel_AssassinsHood</thingClass>
+		<techLevel>Ultra</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>RE_ComplexSpacerClothing</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>RE_ManufacturingBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Item/Apparel/AssassinsHood/AssassinsHood</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.9, 0.9)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<tradeTags>
+			<li>RE_AllianceArmoury</li>
+			<li>RE_LightArmour</li>
+		</tradeTags>
+		<generateCommonality>0.1</generateCommonality>
+		<statBases>
+			<WorkToMake>18000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>1</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+			<AimingDelayFactor>1.50</AimingDelayFactor>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>40</Plasteel>
+		</costList>
+		<apparel>
+			<tags>
+				<li>RE_AssassinHeadwear</li>
+			</tags>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Item/Apparel/AssassinsHood/AssassinsHood</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.9,0.9,0.9,1)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.33,0.33,0.33,1)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.65,0.65,0.65,1)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<min>(0.3,0.3,0.3,1)</min>
+					<max>(0.5,0.5,0.5,1)</max>
+				</li>
+			</options>
+		</colorGenerator>
+		<thingSetMakerTags>
+			<li>RE_AllianceArmoury</li>
+		</thingSetMakerTags>
+		<comps>
+			<li Class="CompProperties_Biocodable" />
+		</comps>
+	</ThingDef>
+
+</Defs>

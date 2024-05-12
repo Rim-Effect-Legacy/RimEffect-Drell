@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<BackstoryDef>
+		<defName>RE_SensitiveArtiste</defName>
+		<title>Sensitive artiste</title>
+		<titleShort>Artiste</titleShort>
+		<description>[PAWN_nameDef] is a professional painter and photographer, visiting strange worlds and cataloging [PAWN_possessive] experience in the form of interpretative art.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Crafting>2</Crafting>
+			<Artistic>3</Artistic>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RE_RitualAssassin</defName>
+		<title>Ritual Assassin</title>
+		<titleShort>Assassin</titleShort>
+		<description>[PAWN_nameDef] is a tool of the Hanar, an instrument shaped to be good at one thing - death. [PAWN_nameDef] does not feel responsible for these deaths, as [PAWN_pronoun] was wielded as a tool by the Hanar. They are the ones who are responsible for the killings.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Shooting>3</Shooting>
+			<Melee>1</Melee>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RE_SlaveChild</defName>
+		<title>Slave Child</title>
+		<titleShort>Slave Child</titleShort>
+		<description>[PAWN_nameDef] was part of a family of Drell who were ripped from their colony world into the arms of a band of marauding slavers. [PAWN_possessive] was worked to the bone on a daily basis, but gained strength through it, and [PAWN_possessive] quietly collected resources until [PAWN_possessive] could escape. Their eventual flight from the slavers was bloody, but [PAWN_possessive] claimed [PAWN_possessive]'d never ever work hard for an uncaring boss again.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Shooting>1</Shooting>
+			<Mining>1</Mining>
+			<Crafting>3</Crafting>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<workDisables>
+			<li>Hauling</li>
+			<li>ManualDumb</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RE_ImperrilledChild</defName>
+		<title>Imperilled child</title>
+		<titleShort>Imperilled child</titleShort>
+		<description>When [PAWN_nameDef] was younger,  [PAWN_pronoun] lived on the barren world of Rakhana. With barely any food available, [PAWN_nameDef] learned to make food with a lot of different items.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Cooking>2</Cooking>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RE_BoozeBootlegger</defName>
+		<title>Booze Bootlegger</title>
+		<titleShort>Bootlegger</titleShort>
+		<description>[PAWN_nameDef] found semi-steady employment escorting shipments of Hanar spirits aboard the rare trade-convoy headed out of their stations. [PAWN_possessive] skills helped to sort out issues, whether with the smoking end of a gun barrel or some smooth diplomacy.</description>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Cooking>2</Cooking>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RE_BitterRefugee</defName>
+		<title>Bitter refugee</title>
+		<titleShort>Refugee</titleShort>
+		<description>[PAWN_nameDef] was brought up by parents who were bitter about having to leave their homeworld Rakhana behind, along with all those they lost during the evacuation. Thus, [PAWN_pronoun] has inherited this bitterness against the Hanar and refused to live alongside [PAWN_possessive] people on Kahje.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Melee>2</Melee>
+			<Crafting>1</Crafting>
+			<Artistic>2</Artistic>
+			<Social>-1</Social>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RE_ProtheanWorshipper</defName>
+		<title>Prothean worshipper</title>
+		<titleShort>Enkindled</titleShort>
+		<description>[PAWN_nameDef] was fully immersed in [PAWN_possessive] education and came to fully believe in the Hanar’s devotion to the Enkindlers. Spending [PAWN_possessive] free time cleaning and learning in Enkindler temples, [PAWN_pronoun] was trusted and dedicated enough that [PAWN_pronoun] was given permission to visit Prothean shrines and basked in their glory.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Mining>-1</Mining>
+			<Plants>1</Plants>
+			<Animals>-1</Animals>
+			<Artistic>1</Artistic>
+			<Social>2</Social>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RE_SterileUpbringing</defName>
+		<title>Sterile upbringing</title>
+		<titleShort>Shipborne</titleShort>
+		<description>As [PAWN_possessive] parents took lessons from the lifestyles of the Quarians, [PAWN_nameDef] was one of many Drell children who was brought up in the sterile environment of a constantly voyaging spaceship. Growing up among the humming internals, [PAWN_pronoun] learned to differentiate the subtle differences in background noise and learned much in the ways of keeping the ship running smoothly.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Construction>2</Construction>
+			<Cooking>1</Cooking>
+			<Crafting>2</Crafting>
+			<Social>-2</Social>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<workDisables>
+			<li>Animals</li>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RE_CitadelUpbringing</defName>
+		<title>Citadel upbringing</title>
+		<titleShort>Ward child</titleShort>
+		<description>[PAWN_nameDef] grew up in the Wards, one of the five arms of the Citadel, where [PAWN_possessive] parents settled down in a less humid environment. Life was never really simple, and sometimes [PAWN_pronoun] had to fight for what [PAWN_pronoun] had but [PAWN_pronoun] also had [PAWN_possessive] friends to rely on.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Shooting>1</Shooting>
+			<Mining>-1</Mining>
+			<Cooking>1</Cooking>
+			<Plants>1</Plants>
+			<Artistic>1</Artistic>
+			<Medicine>-1</Medicine>
+			<Social>2</Social>
+		</skillGains>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>RE_VoraciousReader</defName>
+		<title>Voracious reader</title>
+		<titleShort>Librophile</titleShort>
+		<description>[PAWN_nameDef] has a deep and real love for reading books and made a habit of reading as much as [PAWN_pronoun] could get [PAWN_possessive] hands on. Due to [PAWN_possessive] eidetic memory, [PAWN_pronoun] learned how to speed read so [PAWN_pronoun] could read even more as there is practically more books than [PAWN_pronoun] could ever read in [PAWN_possessive] lifetime. Ironically, [PAWN_pronoun] has difficulty in actually remembering the contents of the books unless given an external stimulus.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Crafting>-1</Crafting>
+			<Medicine>2</Medicine>
+			<Social>-1</Social>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>RE_KineticLearner</defName>
+		<title>Kinetic learner</title>
+		<titleShort>Commando</titleShort>
+		<description>[PAWN_nameDef] managed to convince a former Asari commando to train [PAWN_pronoun] in an unusual manner by getting beaten up and then attempting to imitate those moves. Not without payment, the Asari actually honed and improved her skills as they were reflected back by [PAWN_nameDef], who in turn learned to move [PAWN_possessive] body as fast as [PAWN_pronoun] possibly could through purely reactionary behaviour.</description>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Shooting>-1</Shooting>
+			<Melee>4</Melee>
+			<Medicine>2</Medicine>
+			<Social>-1</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualSkilled</li>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>RE_Spymaster</defName>
+		<title>Spymaster</title>
+		<titleShort>Spymaster</titleShort>
+		<description>[PAWN_nameDef] was employed by high-ranking officials on the Citadel in order to counter any potential attempts at assassination. Because [PAWN_pronoun] has an eidetic memory, any otherwise unnoticeable details were meticulously analysed and documented. This all ended when [PAWN_possessive] contractor refused to renew [PAWN_possessive] protection fee only to slip and fall the next day, breaking their neck.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Shooting>1</Shooting>
+			<Melee>1</Melee>
+			<Mining>-1</Mining>
+			<Plants>2</Plants>
+			<Artistic>2</Artistic>
+			<Intellectual>-1</Intellectual>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>RE_Gastronomist</defName>
+		<title>Gastronomist</title>
+		<titleShort>Gastronomist</titleShort>
+		<description>By combining eidetic memory and [PAWN_possessive] keen sense of taste and smell, [PAWN_nameDef] was able to find employment in many high-end restaurants. Rather uniquely, [PAWN_pronoun] experiences memory recall through different dishes and thus has sought to share [PAWN_possessive] lifestyle with customers by serving them dishes based on their own personal life story.</description>
+		<bodyTypeMale>Fat</bodyTypeMale>
+		<bodyTypeFemale>Fat</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Construction>-1</Construction>
+			<Mining>-1</Mining>
+			<Cooking>4</Cooking>
+			<Plants>2</Plants>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>RE_IndenturedServant</defName>
+		<title>Indentured servant</title>
+		<titleShort>Servant</titleShort>
+		<description>In order to be able to afford a lifestyle that prevented the development of Kepral’s Syndrome, [PAWN_defName] signed an indentured servant’s contract to work in an arid environment. The long, labour intensive hours meant that [PAWN_pronoun] spent most of [PAWN_possessive] time in out-of-body experiences so that [PAWN_pronoun] could enjoy life more outside of work hours.</description>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Melee>-1</Melee>
+			<Construction>4</Construction>
+			<Cooking>2</Cooking>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+			<li>Intellectual</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>RE_WalkingDiary</defName>
+		<title>Walking diary</title>
+		<titleShort>Diary</titleShort>
+		<description>Despite the prevalence of technology, some people prefer to have alternative means to look up information. [PAWN_nameDef] managed to find such work as someone with too much money on their hands took a keen interest in [PAWN_possessive] eidetic memory as a sort of living, breathing diary who learns all of their appointments and people of interest. It was not the most meaningful of work, but [PAWN_pronoun] did manage to learn quite a few interesting things.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Construction>-1</Construction>
+			<Mining>-1</Mining>
+			<Animals>1</Animals>
+			<Artistic>3</Artistic>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>RE_PerformanceSculptor</defName>
+		<title>Performance sculptor</title>
+		<titleShort>Sculptor</titleShort>
+		<description>Being able to remember every intricate detail has allowed [PAWN_nameDef] to make quite a name for [PAWN_possessive]self and quite a bit of money. As part of [PAWN_possessive] artistic talents, [PAWN_pronoun] has a gathering of clientele whom [PAWN_pronoun] greets briefly before blindfolding [PAWN_possessive]self, shaking someone’s hand and then carving small sculptures made with material the same shade as the client’s eye colour.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Mining>1</Mining>
+			<Plants>-1</Plants>
+			<Animals>-1</Animals>
+			<Crafting>1</Crafting>
+			<Artistic>4</Artistic>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>RE_EnkindledProselytizer</defName>
+		<title>Enkindled proselytizer</title>
+		<titleShort>Proselytizer</titleShort>
+		<description>[PAWN_nameDef] fully embraced the Hanar as [PAWN_possessive] saviours and decided to help spread their belief in the Enkindlers across known space. Not everyone is welcoming and light shines brightest in the darkest places, as such [PAWN_pronoun] was taught to defend [PAWN_possessive]self against those who would seek to halt [PAWN_possessive] holy mission.</description>
+		<bodyTypeMale>Fat</bodyTypeMale>
+		<bodyTypeFemale>Fat</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Melee>2</Melee>
+			<Cooking>-1</Cooking>
+			<Crafting>-1</Crafting>
+			<Social>2</Social>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>RE_BiologicalResearcher</defName>
+		<title>Biological researcher</title>
+		<titleShort>Bioresearcher</titleShort>
+		<description>[PAWN_nameDef] spent many years working alongside the Hanar in trying to find a cure to the disease plaguing [PAWN_possessive] people. All the time [PAWN_pronoun] spent analysing Kepral’s syndrome on both living and dead Drell has taken a toll on [PAWN_possessive] soul.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Drell</li>
+		</spawnCategories>
+		<skillGains>
+			<Plants>-1</Plants>
+			<Artistic>-1</Artistic>
+			<Medicine>4</Medicine>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</BackstoryDef>
+
+</Defs>
